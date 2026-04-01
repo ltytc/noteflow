@@ -232,7 +232,7 @@ export default function Sidebar({ dark }: { dark: boolean }) {
       {/* Header */}
       <div className="flex items-center justify-between px-4 pt-4 pb-2">
         <div className="flex items-center gap-2">
-          <div className="w-7 h-7 rounded-lg bg-violet-600 flex items-center justify-center">
+          <div className="w-7 h-7 rounded-lg bg-blue-600 flex items-center justify-center">
             <FileText size={14} className="text-white" />
           </div>
           <span className={`font-semibold text-sm ${dark ? 'text-white' : 'text-gray-900'}`}>NoteFlow</span>
